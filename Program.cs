@@ -18,7 +18,7 @@ namespace Anagram
         public static int[] GetPrimes(int n)
         {
             int[] primes = new int[n];
-            int number = 1;
+            int number = 2;
             int cnt = 0;
             while (cnt < n)
             {
